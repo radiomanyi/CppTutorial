@@ -20,7 +20,7 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 //  DEALINGS IN THE SOFTWARE.
 
-/* code */
+/* code is fun test */
 
 #include <iostream>
 using namespace std;
