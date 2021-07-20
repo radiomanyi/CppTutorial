@@ -1,4 +1,4 @@
-2#include <stdio.h>
+#include <stdio.h>
 double resistance_in_parallel();
 double resistance_in_series();
 int main (int argc, char const *argv[])
@@ -17,10 +17,9 @@ int main (int argc, char const *argv[])
 			case 2:total+=resistance_in_parallel();
 			      printf("The equivalent resistance is :%6.2lf %s\n",total,unit);
 			break;
-			
 		}
 	}
-	
+	return 0;
 } 
 
 double resistance_in_series()
