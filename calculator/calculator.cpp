@@ -10,7 +10,7 @@ int main()
     int x, y, result;
     char oper;
     cout << "Hello! I am Calculator!"<<endl;
-    cout << "Please enter num1 num2 and operator : "<<endl;
+    cout << "Please enter num1 num2 and operator 1: "<<endl;
     cin >>x>>y>>oper;
     Calculator c;
     result = c.Calculate(x, y, oper);
