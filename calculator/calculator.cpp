@@ -1,7 +1,5 @@
- #include <iostream>
-
+#include <iostream>
 using namespace std;
-
 class Calculator{
     public:
     int Calculate (int, int, char);
