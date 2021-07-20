@@ -1,4 +1,4 @@
-#include <stdio.h>
+2#include <stdio.h>
 double resistance_in_parallel();
 double resistance_in_series();
 int main (int argc, char const *argv[])
