@@ -13,13 +13,17 @@ int main (int argc, char const *argv[])
 		{
 			case 1:total+=resistance_in_series();
 			      printf("The equivalent resistance is :%6.2lf %s\n",total,unit);
+				  total=0;
 			break;
 			case 2:total+=resistance_in_parallel();
 			      printf("The equivalent resistance is :%6.2lf %s\n",total,unit);
+				  total=0;
+			case 3:
 			break;
 		}
 	}
 	return 0;
+	//20:58 2021 7 21
 } 
 
 double resistance_in_series()
