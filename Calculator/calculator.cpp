@@ -32,10 +32,11 @@ int Calculator::Calculate(int x, int y, char oper)
         return x * y;
     case '/':
         if (y != 0)
-            return x / y;
+        return x / y;
     default:
         cin >> x >> y >> oper;
-        Calculate(x, y, oper);
-    }
+        Calculate(x, y, oper);    
+    }  
+    return 0;
 }
 
