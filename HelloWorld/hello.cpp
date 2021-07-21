@@ -44,6 +44,7 @@ int main(int argc, char const *argv[])
     cin.ignore();
     cin.get();
     return 0;
+    //20:40 July 21
 }
 
 void Calculator::PrimeGenerator(int x,int y){

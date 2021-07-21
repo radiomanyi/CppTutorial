@@ -8,4 +8,5 @@ int main()
     float monthlySalary = annualSalary/12;
     cout<<"Your monthly salary is:"<<monthlySalary;
     system("pause>0");
+    //20:40 July 21
 }

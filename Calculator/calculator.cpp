@@ -18,6 +18,7 @@ int main()
     cin.ignore();
     cin.get();
     return 0;
+     //20:40 July 21
 }
 
 int Calculator::Calculate(int x, int y, char oper)
