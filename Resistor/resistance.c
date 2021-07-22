@@ -64,6 +64,6 @@ double resistance_in_parallel()
 		sum+=1/resistance_number[i];
 	}
 	return 1/sum;
-    //20:40 July 21
+    //17:14 July 22
 }
  

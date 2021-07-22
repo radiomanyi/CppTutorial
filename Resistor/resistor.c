@@ -7,5 +7,5 @@ int main(int argc, char const *argv[])
     r_s = r_1 + r_2;
     printf("The sum resistance is:%4.1lf\n",r_s);
     return 0;
-     //20:40 July 21
+     //17:14 July 22
 }
