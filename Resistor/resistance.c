@@ -18,19 +18,18 @@ int main (int argc, char const *argv[])
 			case 2:total+=resistance_in_parallel();
 			      printf("The equivalent resistance is :%6.2lf %s\n",total,unit);
 				  total=0;
-			break;
 			case 3:
 			break;
 		}
 	}
 	return 0;
-	 //20:40 July 21
+	//20:58 2021 7 21
 } 
 
 double resistance_in_series()
 {
 	int x=0;
-	double sum=0;
+	double sum;
 	int i=0;
 	double date;
 	double series_resistance;
@@ -50,7 +49,7 @@ double resistance_in_series()
 double resistance_in_parallel()
 {
 	int x=0;
-	double sum=0;
+	double sum;
 	int i=0;
 	double date;
 	double parallel_resistance;
@@ -64,6 +63,5 @@ double resistance_in_parallel()
 		sum+=1/resistance_number[i];
 	}
 	return 1/sum;
-    //17:14 July 22
 }
  
