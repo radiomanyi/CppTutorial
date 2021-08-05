@@ -18,7 +18,7 @@ int main()
     cin.ignore();
     cin.get();
     return 0;
-     //20:40 July 21
+    //20:58 2021 7 21
 }
 
 int Calculator::Calculate(int x, int y, char oper)
@@ -33,10 +33,11 @@ int Calculator::Calculate(int x, int y, char oper)
         return x * y;
     case '/':
         if (y != 0)
-            return x / y;
+        return x / y;
     default:
         cin >> x >> y >> oper;
-        Calculate(x, y, oper);
-    }
+        Calculate(x, y, oper);    
+    }  
+    return 0;
 }
 
