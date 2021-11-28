@@ -9,7 +9,7 @@ int main()
 {
     int x, y, result;
     char oper;
-    cout << "Hello! I am Calculator!"<<endl;
+    cout << "Hello! I am Calculator!"<<endl; 
     cout << "Please enter num1 num2 and operator 1: "<<endl;
     cin >>x>>y>>oper;
     Calculator c;
@@ -38,5 +38,6 @@ int Calculator::Calculate(int x, int y, char oper)
         cin >> x >> y >> oper;
         Calculate(x, y, oper);
     }
+    return 0;
 }
 
