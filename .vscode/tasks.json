@@ -1,10 +1,11 @@
-{//17:14 July 22
+{
     "tasks": [
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\mingw64\\bin\\g++.exe",
             "args": [
+                "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
