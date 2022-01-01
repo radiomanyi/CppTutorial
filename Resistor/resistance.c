@@ -7,7 +7,8 @@ int main (int argc, char const *argv[])
 	double total;
 	char unit[] ="Ohm";
 	while(decide!=3){
-	printf("solution choice:\nchoice 1\nchoice 2\nchoice 3\n");
+	printf("solution choice:\nchoice 1\nchoice 2\nchoice 3
+	\n");
 	scanf("%d",&decide);
 		switch (decide)
 		{
